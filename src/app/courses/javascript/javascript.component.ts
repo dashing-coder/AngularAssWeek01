@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./javascript.component.css']
 })
 export class JavascriptComponent implements OnInit {
-
+  title = 'JavaScript';
   constructor() { }
 
   ngOnInit(): void {
